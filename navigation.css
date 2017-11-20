@@ -1,0 +1,33 @@
+/**********************
+    NAVIGATION STYLES
+***********************/
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    background-color: beige;
+}
+li.link1 a:hover {
+    color: red;
+}
+li.link2 a:hover {
+    background-color: orange;
+}
+li.link3 a:active {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*********************************
+    EXTRA FLEX PRACTICE ETC
+**********************************/
+li {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 3em;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
